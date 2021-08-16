@@ -1,0 +1,40 @@
+<DOCTYPE html!>
+
+    <head>
+        <title>Linda's To-Do List App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="css/todo.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/gif" href="assests/animated_favicon1.gif">
+    </head>
+
+    <body>
+        <div id="todo">
+            <h1> TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+            <input type="text" placeholder="Add New Todo">
+            <ul class="todos">
+                <!-- <li><span><i class="fas fa-trash-alt"></i></span>Сделать TODO</li>
+                <li><span><i class="fas fa-trash-alt"></i></span>Отправить Владу</li> -->
+            </ul>
+            <div id="buttons">
+                <button class="save">Save</button>
+                <button class="clear">Clear</button>
+                <button class="tipBtn">Instruction</button>
+                <button class="button">ADD</button>
+
+            </div>
+        </div>
+        <div id="overlay">
+            <a class="closebtn">&times;</a>
+            <ul class="tips">
+                <li>Нажмите на карандаш чтоб получить поле со списком дел</li>
+                <li>Заполните поле и нажмите enter,чтоб запомнить список дел надо нажать save</li>
+                <li>Если хотите удалить список дел,то нажмите на корзину</li>
+                <li>Принажатии на текст можно его зачеркнуть, то есть удалить со списка</li>
+                <li>Так же можно нажать ADD чтоб добавлялось по нажатию на кнопку</li>
+            </ul>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
